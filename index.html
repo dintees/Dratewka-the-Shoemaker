@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dratewka</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+
+    <span id="game">
+        <p><span id="place">roadside shrine</span></p>
+
+        <img id="placeImg" />
+
+        <span id="gameBoard">
+            <p>You can go <span id="direction"></span></p>
+            <p>You see <span id="seen">nothing</span></p>
+            <p>You are carrying <span id="carrying">nothing</span></p>
+
+            <br />
+
+            <p>
+
+                <span id="commandText">
+                    <label><span id="cursor"></span>What now? <input type="text" id="whatNow" autofocus /></label>
+                </span>
+                <div id="text"></div>
+
+            </p>
+        </span>
+        <div id="vocabularyAndGossip"></div>
+
+        <div id="kompas">
+            <div id="kompasContainer">
+                <img id="kompasImg" src="gfx/kompas.png" alt="kompas" />
+                <div id="kompasN"></div>
+                <div id="kompasE"></div>
+                <div id="kompasS"></div>
+                <div id="kompasW"></div>
+            </div>
+        </div>
+    </span>
+
+    <div id="obrazkiCzolowka">
+        <div id="pressKeyToStart">Press any key to start...</div>
+        <img src="gfx/czołówka.jpg" />
+        <img src="gfx/opis_A.jpg" />
+        <img src="gfx/opis_B.jpg" />
+    </div>
+
+    <div id="endScreen">
+        <img src="gfx/end.png" />
+    </div>
+
+    <audio id="audioTag">
+        <source src="mp3/hejnal.mp3" type="audio/mpeg" />
+    </audio>
+
+
+</body>
+
+</html>

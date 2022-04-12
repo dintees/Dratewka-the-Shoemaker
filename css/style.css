@@ -1,0 +1,104 @@
+body {
+    background: #323232;
+    font: 16px Dratewka;
+    color: #9b98a9;
+    margin: 20px;
+}
+
+img {
+    display: block;
+    width: 275px;
+    /* background: rgb(167, 245, 63); */
+    border: 2px solid #fff;
+}
+
+input#whatNow {
+    background: #323232;
+    /* background: green; */
+    /* width: 16px; */
+    color: #9b98a9;
+    border: none;
+    font: 16px Dratewka;
+    padding: 6px;
+    outline: none;
+    /* caret-color: #323232; */
+}
+
+label {
+    position: relative;
+}
+
+#cursor {
+    width: 14px;
+    height: 17px;
+    background-color: rgb(165, 162, 178);
+    position: absolute;
+    left: 165px;
+    margin-top: 6px;
+    color: #323232;
+}
+
+#kompas {
+    position: absolute;
+    top: 60px;
+    left: 400px;
+}
+
+#kompasContainer {
+    position: relative;
+}
+
+#kompasImg {
+    background: none;
+    border: none;
+}
+
+#kompasN, #kompasE, #kompasS, #kompasW {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: #323232;
+    /* border: 1px solid red; */
+}
+
+#kompasN {
+    top: 0px;
+    left: 122px;
+}
+
+#kompasE {
+    top: 35px;
+    left: 246px;
+}
+
+#kompasS {
+    bottom: 2px;
+    left: 128px;
+}
+
+#kompasW {
+    top: 35px;
+    left: 14px;
+}
+
+#game {
+    display: none;
+}
+
+#obrazkiCzolowka * {
+    width: 600px;
+    display: none;
+}
+
+#endScreen img {
+    width: 600px;
+}
+
+#endScreen {
+    display: none;
+}
+
+@font-face {
+    font-family: Dratewka;
+    src: url("../fonts/PressStart2P.ttf");
+}
